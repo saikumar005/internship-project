@@ -38,6 +38,9 @@ body{
     font-weight:bold;
 }
 .main_blog_image:hover{
+    padding:0px;
+    width:1105px;
+    height: 405px;
     cursor:pointer;
     box-shadow: 3px 3px 10px rgba(3, 72, 95, 0.5);
 }
@@ -56,7 +59,7 @@ body{
 .sub_blog_div_post{
     display:flex;
     flex-direction:column;
-    border:2px solid black;
+    border:2px solid transparent;
     padding:2px;
 }
 
@@ -65,7 +68,7 @@ body{
     text-align:center;
     color:red;
 }
-
+ /* styling the sub blog images  */
 .sub_blog_image{
     padding:5px;
     width:300px;
@@ -74,7 +77,22 @@ body{
     box-shadow: 3px 3px 30px rgba(69, 164, 199,1);
 }
 .sub_blog_image:hover{
-    padding:2px;
+    width:305px;
+    height:305px;
+    padding:0px;
     cursor:pointer;
     box-shadow: 0px 0px 0px rgba(3, 72, 95, 0.5);
+}
+
+
+
+  /* styling for the course blog here */
+
+
+.course_blogs{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(165, 78, 150, 0.507);
+    padding:20px;
 }
