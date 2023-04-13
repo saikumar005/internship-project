@@ -1,0 +1,80 @@
+body{
+    margin:auto;
+}
+
+.container{
+    padding:10px;
+    background-color: rgba(223, 230, 125, 0.336);
+}
+
+.technology_blogs{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: antiquewhite;
+    padding:20px;
+}
+
+.blog_heading h1 {
+    /* background-color: antiquewhite; */
+    text-align: center;
+    font-size: 51px;
+    text-shadow: 4px 4px 15px blue,2px 2px 5px green, 2px 2px 5px red;
+}
+
+  /* styling images like cards */
+
+.main_blog_image{
+    margin-left:72px;
+    border:2px solid blue;
+    padding:5px;
+    width:1100px;
+    height: 400px;
+    box-shadow: 3px 3px 30px rgb(69, 164, 199);
+}
+.main_blog h4{
+    text-align:center;
+    color:red;
+    font-weight:bold;
+}
+.main_blog_image:hover{
+    cursor:pointer;
+    box-shadow: 3px 3px 10px rgba(3, 72, 95, 0.5);
+}
+
+  /* styling sub_blog_div */
+.sub_blog_div{
+    margin-top:50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left:72px;
+    margin-right:105px;
+}
+
+ /* styling sub_blog_div_post */
+.sub_blog_div_post{
+    display:flex;
+    flex-direction:column;
+    border:2px solid black;
+    padding:2px;
+}
+
+.sub_blog_div_post_heading{
+    border-top:2px solid black;
+    text-align:center;
+    color:red;
+}
+
+.sub_blog_image{
+    padding:5px;
+    width:300px;
+    height:300px;
+    border:2px solid blue;
+    box-shadow: 3px 3px 30px rgba(69, 164, 199,1);
+}
+.sub_blog_image:hover{
+    padding:2px;
+    cursor:pointer;
+    box-shadow: 0px 0px 0px rgba(3, 72, 95, 0.5);
+}
