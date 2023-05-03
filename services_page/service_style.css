@@ -24,6 +24,9 @@
     padding:20px;
     
 }
+.service_content a{
+    text-decoration:none;
+}
 
 .service_content_card{
     display:flex;
@@ -45,10 +48,13 @@
 .service_content_card img{
     width:100%;
     height: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
 }
 
 .service_content_matter{
     background-color: rgb(202, 149, 149);
+    width:300px;
     font-size:20px;
     color:black;
     font-weight:bold;
